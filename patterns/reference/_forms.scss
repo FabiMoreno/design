@@ -229,8 +229,6 @@ input[type=number] {
 input[type=tel] {
     &:focus {
        color: $grey-darker;
-       border: 2px solid $duo-green;
-       box-shadow: 0 0 5px 0 transparentize($duo-green, 0.5);
   }
 }
 
@@ -248,8 +246,6 @@ select {
 
   &:focus {
     color: $grey-darker;
-    border-color: $duo-green;
-    box-shadow: 0 0 5px 0 transparentize($duo-green, 0.5);
   }
 
   &.short {
